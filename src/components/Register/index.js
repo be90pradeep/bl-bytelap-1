@@ -89,7 +89,7 @@ class Register extends Component {
         <div className="from-to-container">
           <Form.Group className="mb-3 select-option" controlId="formGridState">
             <Form.Select defaultValue="Year">
-              {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13].map((i) => (
+              {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,14,15,16,17,18,19,20,21,22,23].map((i) => (
                 <option>{2000 + i}</option>
               ))}
             </Form.Select>

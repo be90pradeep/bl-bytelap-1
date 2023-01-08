@@ -27,16 +27,16 @@ function OffcanvasNavbar() {
 
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="/login" className="fs-2">
+                  <Nav.Link href="/login" className="fs-5">
                     Login
                   </Nav.Link>
                   <Nav.Link href="#action1">
-                    <Button variant="primary" size="lg">
+                    <Button variant="primary" size="sm">
                       For Candidate
                     </Button>{" "}
                   </Nav.Link>
                   <Nav.Link href="#action1">
-                    <Button variant="primary" size="lg">
+                    <Button variant="primary" size="sm">
                       For Employer
                     </Button>{" "}
                   </Nav.Link>
